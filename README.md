@@ -38,7 +38,7 @@ Dataset
 
 Here are a few sample images from the dataset:
 
-![Dataset Samples](https://github.com/04092000f/License-Detection/blob/main/visuals/image.png)
+![Dataset Samples](visuals/image.png)
 
 ---
 
