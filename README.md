@@ -69,7 +69,10 @@ The WandB logs can be found [here](https://wandb.ai/furqansa344-na/opencv_od_pro
 ### Video Inference
 
 
-https://github.com/j13Lucas/License-Detection/visuals/video
+<video width="640" height="360" controls>
+  <source src="visuals/video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 
 
