@@ -57,7 +57,7 @@ train: /content/License_Plate_Detection/train/images
 val: /content/License_Plate_Detection/validation/images
 nc: 1
 names: ['Reg-plate']
-
+```
 ---
 
 ### Training Hyperparameters:
