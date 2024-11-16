@@ -69,7 +69,7 @@ The WandB logs can be found [here](https://wandb.ai/furqansa344-na/opencv_od_pro
 ### Video Inference
 
 
-
+https://github.com/j13Lucas/License-Detection/visuals/video
 
 
 
