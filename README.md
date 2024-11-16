@@ -35,13 +35,26 @@ Dataset
         └── Label
 ```
 
+- **Training Samples**: 5,308
+- **Validation Samples**: 386
 
+Here are a few sample images from the dataset:
+
+![Dataset Samples](https://github.com/04092000f/License-Detection/blob/main/visuals/image.png)
+
+---
+
+## Model and Preprocessing
+
+**YOLOv5** was selected for its speed and accuracy. Key preprocessing steps included:
+
+1. **Annotation Conversion**: Converted bounding box annotations into YOLO format:
 
 ---
 
 ### Detection Model used for Fine-tuning
 
-[YOLOv5](https://github.com/ultralytics/yolov5)t) was used for fine-tuning on the dataset.
+[YOLOv5](https://github.com/ultralytics/yolov5) was used for fine-tuning on the dataset.
 
 Since <b>YOLOv5</b> was used, there are two things that were needed to be done:
     - Convert the and preprocess the annotations in a proper YOLOv5 format, the format is given below:
