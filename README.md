@@ -11,7 +11,7 @@ This project uses **YOLOv5** to build a high-precision **License Plate Detection
 
 ## Table of Contents
 
-1. [About the Dataset](#1-about-the-dataset)
+1. [About the Dataset](#about-the-dataset)
 2. [Model and Preprocessing](#model-and-preprocessing)
 3. [Training Configuration](#training-configuration)
 4. [Evaluation Metrics](#evaluation-metrics)
