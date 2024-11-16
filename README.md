@@ -68,7 +68,8 @@ The WandB logs can be found [here](https://wandb.ai/furqansa344-na/opencv_od_pro
 
 ### Video Inference
 
-[Watch the Video](visuals/video.mp4)
+[![Watch the video](https://img.youtube.com/vi/yCd3v3M0yF0/0.jpg)](https://www.youtube.com/yCd3v3M0yF0)
+
 
 
 ---
