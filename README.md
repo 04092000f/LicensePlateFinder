@@ -16,8 +16,6 @@ This project uses **YOLOv5** to build a high-precision **License Plate Detection
 3. [Training Configuration](#training-configuration)
 4. [Evaluation Metrics](#evaluation-metrics)
 5. [Inference Results](#inference-results)
-6. [Setup Instructions](#setup-instructions)
-7. [References](#references)
 
 ---
 
@@ -60,13 +58,14 @@ names: ['Reg-plate']
 ```
 ---
 
-### Training Hyperparameters:
+## Training Configuration
 
-* Batch size: `32`
+The model was fine-tuned with the following hyperparameters:
 
-* Epochs: `25`; Iterations: `int(epoch * train_img_count / BATCH_SIZE)`  = `4146`
-
-* Initial LR: `1e-3`
+- **Batch Size**: `32`
+- **Epochs**: `25`
+- **Iterations**: `4,146` (calculated as `int(epochs * train_img_count / batch_size)`)
+- **Initial Learning Rate**: `1e-3`
 
   
 
