@@ -6,7 +6,7 @@ The notebook: `Project2_License_Plate_Detection.ipynb` was used to build a Licen
 ### About the Dataset
 
 The dataset consisted of `5694` images samples of in **License plates**.  A few samples are shown below.
-
+![Images](https://github.com/04092000f/License-Detection/blob/main/visuals/image.png)<br>
 
 Out of these `5694` image samples,  `5308` samples consisted of the train data and `386` samples from the validation data.
 
