@@ -1,4 +1,4 @@
-# License-Detection
+# License Plate Detection
 # <img src = "https://opencv.org/wp-content/uploads/2021/06/OpenCV_logo_black_.png">
 
 The notebook: `Project2_License_Plate_Detection.ipynb` was used to build a License Plate Detector Model.
