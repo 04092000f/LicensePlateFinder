@@ -70,7 +70,7 @@ The WandB logs can be found [here](https://wandb.ai/furqansa344-na/opencv_od_pro
 
 
 <video width="640" height="360" controls>
-  <source src="visuals/video.mp4" type="video/mp4">
+  <source src="https://github.com/04092000f/License-Detection/blob/main/visuals/video.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
