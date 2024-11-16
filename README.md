@@ -1,16 +1,29 @@
+
+markdown
+Copy code
 # License Plate Detection
-# <img src = "https://opencv.org/wp-content/uploads/2021/06/OpenCV_logo_black_.png">
 
-The notebook: `Project2_License_Plate_Detection.ipynb` was used to build a License Plate Detector Model.
+![OpenCV Logo](https://opencv.org/wp-content/uploads/2021/06/OpenCV_logo_black_.png)
 
-### About the Dataset
+This project uses **YOLOv5** to build a high-precision **License Plate Detection Model**. The model was fine-tuned on a custom dataset and achieved excellent detection accuracy.
 
-The dataset consisted of `5694` images samples of in **License plates**.  A few samples are shown below.
-![Images](https://github.com/04092000f/License-Detection/blob/main/visuals/image.png)<br>
+---
 
-Out of these `5694` image samples,  `5308` samples consisted of the train data and `386` samples from the validation data.
+## Table of Contents
 
-The annotations are in the form of `[xmin, ymin, xmax, ymax]` format. The dataset shared the following hierarchy:
+1. [About the Dataset](#1-about-the-dataset)
+2. [Model and Preprocessing](#model-and-preprocessing)
+3. [Training Configuration](#training-configuration)
+4. [Evaluation Metrics](#evaluation-metrics)
+5. [Inference Results](#inference-results)
+6. [Setup Instructions](#setup-instructions)
+7. [References](#references)
+
+---
+
+## About the Dataset
+
+The dataset consists of **5,694 images** of license plates with bounding box annotations in `[xmin, ymin, xmax, ymax]` format. The dataset follows the directory structure:
 
 ```
 Dataset
