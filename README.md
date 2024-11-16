@@ -50,25 +50,15 @@ Here are a few sample images from the dataset:
 
 1. **Annotation Conversion**: Converted bounding box annotations into YOLO format:
 
+
+2. **Configuration File**: Created a `data.yaml` file:
+```yaml
+train: /content/License_Plate_Detection/train/images
+val: /content/License_Plate_Detection/validation/images
+nc: 1
+names: ['Reg-plate']
+
 ---
-
-### Detection Model used for Fine-tuning
-
-[YOLOv5](https://github.com/ultralytics/yolov5) was used for fine-tuning on the dataset.
-
-Since <b>YOLOv5</b> was used, there are two things that were needed to be done:
-    - Convert the and preprocess the annotations in a proper YOLOv5 format, the format is given below:
-            `class_id x y width height`
-
-    - Create a data.yaml file which stores class labels corresponding to their class ids. This file is very essential for model training of <b>YOLOv5</b> model. The file format is given below:
-               ``` 
-               train: /content/License_Plate_Detection/train/images
-               val: /content/License_Plate_Detection/validation/images
-               nc: 1
-               names: ['Reg-plate']
-               ```
-
-
 
 ### Training Hyperparameters:
 
