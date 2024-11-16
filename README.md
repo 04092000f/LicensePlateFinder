@@ -93,7 +93,7 @@ The final COCO primary metric (**mAP@0.5:0.95**) was **`0.762`**, while the **mA
 The WandB logs can be found [here](https://wandb.ai/furqansa344-na/opencv_od_project/reports/License-Plate-Detection--Vmlldzo5MjA5NDcx?accessToken=axc7exli81c4oe8ykmppbw6hpz3k95bzn7w9ir8g7tepvi1vvghhokhdoo9d53le).
 
 
-### Video Inference
+### Inference Results
 
 ![Video](visuals/video.gif)
 
