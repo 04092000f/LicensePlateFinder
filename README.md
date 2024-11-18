@@ -3,7 +3,6 @@ markdown
 Copy code
 # License Plate Detection
 
-![OpenCV Logo](https://opencv.org/wp-content/uploads/2021/06/OpenCV_logo_black_.png)
 
 This project uses **YOLOv5** to build a high-precision **License Plate Detection Model**. The model was fine-tuned on a custom dataset and achieved excellent detection accuracy.
 
