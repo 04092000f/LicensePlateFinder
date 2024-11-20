@@ -1,4 +1,4 @@
-# License Plate Detection
+# License Plate Finder
 
 This project implements **YOLOv5** to build a high-precision **License Plate Detection Model**. The model was fine-tuned on a custom dataset and achieved impressive performance:
 
