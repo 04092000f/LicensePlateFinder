@@ -37,7 +37,7 @@ Dataset
 
 ### Sample Images
 
-Below are some sample images with ground truth bounding boxes:  
+Below are some images with `ground truth` bounding boxes:  
 
 ![Dataset Samples](visuals/image.png)
 
@@ -47,7 +47,7 @@ Below are some sample images with ground truth bounding boxes:
 
 The **YOLOv5** model was chosen for its balance between speed and accuracy. Key steps in preprocessing included:
 
-1. **Annotation Conversion**: Converted bounding box annotations into YOLO format.  
+1. **Annotation Conversion**: Converted `[xmin, ymin, xmax, ymax]` **Pascal VOC** bounding box annotations into [class_id, x, y, width, height] **YOLO** format.  
 2. **Data Configuration File**: Prepared a `data.yaml` file with the following details:
 
 ```yaml
