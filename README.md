@@ -1,26 +1,25 @@
-
-markdown
-Copy code
 # License Plate Detection
 
+This project implements **YOLOv5** to build a high-precision **License Plate Detection Model**. The model was fine-tuned on a custom dataset and achieved impressive performance:
 
-This project uses **YOLOv5** to build a high-precision **License Plate Detection Model**. The model was fine-tuned on a custom dataset and achieved excellent detection accuracy.
+- **mAP@0.5:0.95**: `0.762`  
+- **mAP@0.5**: `0.831` (VOC metric)
 
 ---
 
 ## Table of Contents
 
-1. [About the Dataset](#about-the-dataset)
-2. [Model and Preprocessing](#model-and-preprocessing)
-3. [Training Configuration](#training-configuration)
-4. [Evaluation Metrics](#evaluation-metrics)
-5. [Inference Results](#inference-results)
+1. [About the Dataset](#about-the-dataset)  
+2. [Model and Preprocessing](#model-and-preprocessing)  
+3. [Training Configuration](#training-configuration)  
+4. [Evaluation Metrics](#evaluation-metrics)  
+5. [Inference Results](#inference-results)  
 
 ---
 
 ## About the Dataset
 
-The dataset consists of **5,694 images** of license plates with bounding box annotations in `[xmin, ymin, xmax, ymax]` format. The dataset follows the directory structure:
+The dataset comprises **5,694 images** of license plates with bounding box annotations provided in `[xmin, ymin, xmax, ymax]` format. It is organized as follows:
 
 ```
 Dataset
@@ -32,10 +31,13 @@ Dataset
         └── Label
 ```
 
-- **Training Samples**: 5,308
-- **Validation Samples**: 386
 
-Here are a few sample images from the dataset:
+- **Training Samples**: 5,308  
+- **Validation Samples**: 386  
+
+### Sample Images
+
+Below are some sample images with ground truth bounding boxes:  
 
 ![Dataset Samples](visuals/image.png)
 
@@ -43,12 +45,11 @@ Here are a few sample images from the dataset:
 
 ## Model and Preprocessing
 
-**YOLOv5** was selected for its speed and accuracy. Key preprocessing steps included:
+The **YOLOv5** model was chosen for its balance between speed and accuracy. Key steps in preprocessing included:
 
-1. **Annotation Conversion**: Converted bounding box annotations into YOLO format:
+1. **Annotation Conversion**: Converted bounding box annotations into YOLO format.  
+2. **Data Configuration File**: Prepared a `data.yaml` file with the following details:
 
-
-2. **Configuration File**: Created a `data.yaml` file:
 ```yaml
 train: /content/License_Plate_Detection/train/images
 val: /content/License_Plate_Detection/validation/images
@@ -63,7 +64,8 @@ The model was fine-tuned with the following hyperparameters:
 
 - **Batch Size**: `32`
 - **Epochs**: `25`
-- **Iterations**: `4,146` (calculated as `int(epochs * train_img_count / batch_size)`)
+- **Iterations**: `4,146`
+    - calculated as `int(epochs * train_img_count / batch_size)`
 - **Initial Learning Rate**: `1e-3`
 
   
