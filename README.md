@@ -72,7 +72,7 @@ The model was fine-tuned with the following hyperparameters:
 
 ### Evaluation Metrics
 
-The final COCO primary metric (**mAP@0.5:0.95**) was **`0.762`**, while the **mAP@0.5** (VOC metric) was **0.831**. The overall metric statistics is:
+The final COCO primary metric `(mAP@0.5:0.95)` was **`0.762`**, while the `mAP@0.5` (VOC metric) was **0.831**. The overall metric statistics is:
 
 ```
  Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.762
