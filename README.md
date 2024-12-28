@@ -38,7 +38,7 @@ Dataset
 ### Sample Images
 
 Below are some images with `ground truth` bounding boxes:
-
+![Dataset Samples](visuals/image.png)
 
 
 ---
@@ -95,7 +95,7 @@ The WandB logs can be found [here](https://wandb.ai/furqansa344-na/opencv_od_pro
 ---
 
 ## Inference Results
-
+![Video](visuals/video.gif)
 
 
 ---
@@ -139,3 +139,6 @@ The following steps outline the algorithm for real-time inference:
     - Display or save the annotated frame with license plate numbers.
 
 This integration showcases the power of combining advanced object detection with OCR for practical and impactful applications.
+
+### Final Output
+![OCR](visuals/paddleocr.gif)
